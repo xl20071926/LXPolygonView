@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A11075E1E46FFE70019FB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11075D1E46FFE70019FB82 /* main.m */; };
+		8A1107611E46FFE70019FB82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1107601E46FFE70019FB82 /* AppDelegate.m */; };
+		8A1107641E46FFE70019FB82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1107631E46FFE70019FB82 /* ViewController.m */; };
+		8A1107671E46FFE80019FB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1107651E46FFE80019FB82 /* Main.storyboard */; };
+		8A1107691E46FFE80019FB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1107681E46FFE80019FB82 /* Assets.xcassets */; };
+		8A11076C1E46FFE80019FB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A11076A1E46FFE80019FB82 /* LaunchScreen.storyboard */; };
+		8A1107771E46FFE80019FB82 /* LXPolygonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1107761E46FFE80019FB82 /* LXPolygonViewTests.m */; };
+		8A1107821E46FFE90019FB82 /* LXPolygonViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1107811E46FFE90019FB82 /* LXPolygonViewUITests.m */; };
+		8A1107961E47005C0019FB82 /* LXValuePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1107931E47005C0019FB82 /* LXValuePopView.m */; };
+		8A1107971E47005C0019FB82 /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1107951E47005C0019FB82 /* NSArray+Category.m */; };
+		8A11079A1E47011D0019FB82 /* LXPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1107991E47011D0019FB82 /* LXPolygonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A1107731E46FFE80019FB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1107511E46FFE70019FB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1107581E46FFE70019FB82;
+			remoteInfo = LXPolygonView;
+		};
+		8A11077E1E46FFE90019FB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1107511E46FFE70019FB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1107581E46FFE70019FB82;
+			remoteInfo = LXPolygonView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A1107591E46FFE70019FB82 /* LXPolygonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXPolygonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A11075D1E46FFE70019FB82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A11075F1E46FFE70019FB82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A1107601E46FFE70019FB82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A1107621E46FFE70019FB82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A1107631E46FFE70019FB82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A1107661E46FFE80019FB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A1107681E46FFE80019FB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A11076B1E46FFE80019FB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A11076D1E46FFE80019FB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1107721E46FFE80019FB82 /* LXPolygonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXPolygonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1107761E46FFE80019FB82 /* LXPolygonViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPolygonViewTests.m; sourceTree = "<group>"; };
+		8A1107781E46FFE80019FB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A11077D1E46FFE90019FB82 /* LXPolygonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXPolygonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1107811E46FFE90019FB82 /* LXPolygonViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPolygonViewUITests.m; sourceTree = "<group>"; };
+		8A1107831E46FFE90019FB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1107921E47005C0019FB82 /* LXValuePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXValuePopView.h; sourceTree = "<group>"; };
+		8A1107931E47005C0019FB82 /* LXValuePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXValuePopView.m; sourceTree = "<group>"; };
+		8A1107941E47005C0019FB82 /* NSArray+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Category.h"; sourceTree = "<group>"; };
+		8A1107951E47005C0019FB82 /* NSArray+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Category.m"; sourceTree = "<group>"; };
+		8A1107981E47011D0019FB82 /* LXPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPolygonView.h; sourceTree = "<group>"; };
+		8A1107991E47011D0019FB82 /* LXPolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPolygonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1107561E46FFE70019FB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A11076F1E46FFE80019FB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A11077A1E46FFE80019FB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1107501E46FFE70019FB82 = {
+			isa = PBXGroup;
+			children = (
+				8A11075B1E46FFE70019FB82 /* LXPolygonView */,
+				8A1107751E46FFE80019FB82 /* LXPolygonViewTests */,
+				8A1107801E46FFE90019FB82 /* LXPolygonViewUITests */,
+				8A11075A1E46FFE70019FB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A11075A1E46FFE70019FB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1107591E46FFE70019FB82 /* LXPolygonView.app */,
+				8A1107721E46FFE80019FB82 /* LXPolygonViewTests.xctest */,
+				8A11077D1E46FFE90019FB82 /* LXPolygonViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A11075B1E46FFE70019FB82 /* LXPolygonView */ = {
+			isa = PBXGroup;
+			children = (
+				8A11075F1E46FFE70019FB82 /* AppDelegate.h */,
+				8A1107601E46FFE70019FB82 /* AppDelegate.m */,
+				8A1107621E46FFE70019FB82 /* ViewController.h */,
+				8A1107631E46FFE70019FB82 /* ViewController.m */,
+				8A1107981E47011D0019FB82 /* LXPolygonView.h */,
+				8A1107991E47011D0019FB82 /* LXPolygonView.m */,
+				8A1107921E47005C0019FB82 /* LXValuePopView.h */,
+				8A1107931E47005C0019FB82 /* LXValuePopView.m */,
+				8A1107941E47005C0019FB82 /* NSArray+Category.h */,
+				8A1107951E47005C0019FB82 /* NSArray+Category.m */,
+				8A1107651E46FFE80019FB82 /* Main.storyboard */,
+				8A1107681E46FFE80019FB82 /* Assets.xcassets */,
+				8A11076A1E46FFE80019FB82 /* LaunchScreen.storyboard */,
+				8A11076D1E46FFE80019FB82 /* Info.plist */,
+				8A11075C1E46FFE70019FB82 /* Supporting Files */,
+			);
+			path = LXPolygonView;
+			sourceTree = "<group>";
+		};
+		8A11075C1E46FFE70019FB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A11075D1E46FFE70019FB82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A1107751E46FFE80019FB82 /* LXPolygonViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1107761E46FFE80019FB82 /* LXPolygonViewTests.m */,
+				8A1107781E46FFE80019FB82 /* Info.plist */,
+			);
+			path = LXPolygonViewTests;
+			sourceTree = "<group>";
+		};
+		8A1107801E46FFE90019FB82 /* LXPolygonViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1107811E46FFE90019FB82 /* LXPolygonViewUITests.m */,
+				8A1107831E46FFE90019FB82 /* Info.plist */,
+			);
+			path = LXPolygonViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1107581E46FFE70019FB82 /* LXPolygonView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1107861E46FFE90019FB82 /* Build configuration list for PBXNativeTarget "LXPolygonView" */;
+			buildPhases = (
+				8A1107551E46FFE70019FB82 /* Sources */,
+				8A1107561E46FFE70019FB82 /* Frameworks */,
+				8A1107571E46FFE70019FB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXPolygonView;
+			productName = LXPolygonView;
+			productReference = 8A1107591E46FFE70019FB82 /* LXPolygonView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1107711E46FFE80019FB82 /* LXPolygonViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1107891E46FFE90019FB82 /* Build configuration list for PBXNativeTarget "LXPolygonViewTests" */;
+			buildPhases = (
+				8A11076E1E46FFE80019FB82 /* Sources */,
+				8A11076F1E46FFE80019FB82 /* Frameworks */,
+				8A1107701E46FFE80019FB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1107741E46FFE80019FB82 /* PBXTargetDependency */,
+			);
+			name = LXPolygonViewTests;
+			productName = LXPolygonViewTests;
+			productReference = 8A1107721E46FFE80019FB82 /* LXPolygonViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A11077C1E46FFE80019FB82 /* LXPolygonViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A11078C1E46FFE90019FB82 /* Build configuration list for PBXNativeTarget "LXPolygonViewUITests" */;
+			buildPhases = (
+				8A1107791E46FFE80019FB82 /* Sources */,
+				8A11077A1E46FFE80019FB82 /* Frameworks */,
+				8A11077B1E46FFE80019FB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A11077F1E46FFE90019FB82 /* PBXTargetDependency */,
+			);
+			name = LXPolygonViewUITests;
+			productName = LXPolygonViewUITests;
+			productReference = 8A11077D1E46FFE90019FB82 /* LXPolygonViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1107511E46FFE70019FB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Garden.Lee;
+				TargetAttributes = {
+					8A1107581E46FFE70019FB82 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DTN9CJBL3W;
+						ProvisioningStyle = Automatic;
+					};
+					8A1107711E46FFE80019FB82 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A1107581E46FFE70019FB82;
+					};
+					8A11077C1E46FFE80019FB82 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8A1107581E46FFE70019FB82;
+					};
+				};
+			};
+			buildConfigurationList = 8A1107541E46FFE70019FB82 /* Build configuration list for PBXProject "LXPolygonView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A1107501E46FFE70019FB82;
+			productRefGroup = 8A11075A1E46FFE70019FB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1107581E46FFE70019FB82 /* LXPolygonView */,
+				8A1107711E46FFE80019FB82 /* LXPolygonViewTests */,
+				8A11077C1E46FFE80019FB82 /* LXPolygonViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1107571E46FFE70019FB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A11076C1E46FFE80019FB82 /* LaunchScreen.storyboard in Resources */,
+				8A1107691E46FFE80019FB82 /* Assets.xcassets in Resources */,
+				8A1107671E46FFE80019FB82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1107701E46FFE80019FB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A11077B1E46FFE80019FB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1107551E46FFE70019FB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1107641E46FFE70019FB82 /* ViewController.m in Sources */,
+				8A1107611E46FFE70019FB82 /* AppDelegate.m in Sources */,
+				8A1107961E47005C0019FB82 /* LXValuePopView.m in Sources */,
+				8A11079A1E47011D0019FB82 /* LXPolygonView.m in Sources */,
+				8A11075E1E46FFE70019FB82 /* main.m in Sources */,
+				8A1107971E47005C0019FB82 /* NSArray+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A11076E1E46FFE80019FB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1107771E46FFE80019FB82 /* LXPolygonViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1107791E46FFE80019FB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1107821E46FFE90019FB82 /* LXPolygonViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A1107741E46FFE80019FB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1107581E46FFE70019FB82 /* LXPolygonView */;
+			targetProxy = 8A1107731E46FFE80019FB82 /* PBXContainerItemProxy */;
+		};
+		8A11077F1E46FFE90019FB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A1107581E46FFE70019FB82 /* LXPolygonView */;
+			targetProxy = 8A11077E1E46FFE90019FB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A1107651E46FFE80019FB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A1107661E46FFE80019FB82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A11076A1E46FFE80019FB82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A11076B1E46FFE80019FB82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A1107841E46FFE90019FB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A1107851E46FFE90019FB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1107871E46FFE90019FB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DTN9CJBL3W;
+				INFOPLIST_FILE = LXPolygonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXPolygonView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A1107881E46FFE90019FB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DTN9CJBL3W;
+				INFOPLIST_FILE = LXPolygonView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXPolygonView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A11078A1E46FFE90019FB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXPolygonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXPolygonViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXPolygonView.app/LXPolygonView";
+			};
+			name = Debug;
+		};
+		8A11078B1E46FFE90019FB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXPolygonViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXPolygonViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXPolygonView.app/LXPolygonView";
+			};
+			name = Release;
+		};
+		8A11078D1E46FFE90019FB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXPolygonViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXPolygonViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXPolygonView;
+			};
+			name = Debug;
+		};
+		8A11078E1E46FFE90019FB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXPolygonViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXPolygonViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXPolygonView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1107541E46FFE70019FB82 /* Build configuration list for PBXProject "LXPolygonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1107841E46FFE90019FB82 /* Debug */,
+				8A1107851E46FFE90019FB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1107861E46FFE90019FB82 /* Build configuration list for PBXNativeTarget "LXPolygonView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1107871E46FFE90019FB82 /* Debug */,
+				8A1107881E46FFE90019FB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1107891E46FFE90019FB82 /* Build configuration list for PBXNativeTarget "LXPolygonViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A11078A1E46FFE90019FB82 /* Debug */,
+				8A11078B1E46FFE90019FB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A11078C1E46FFE90019FB82 /* Build configuration list for PBXNativeTarget "LXPolygonViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A11078D1E46FFE90019FB82 /* Debug */,
+				8A11078E1E46FFE90019FB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1107511E46FFE70019FB82 /* Project object */;
+}
